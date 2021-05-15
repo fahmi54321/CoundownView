@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <cn.iwgang.countdownview.CountdownView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/countDownView"
+        app:isHideTimeBackground="false"
+        app:isShowDay="true"
+        app:isShowHour="true"
+        app:isShowMinute="true"
+        app:isShowSecond="true"
+        app:isShowMillisecond="true"
+        app:timeTextColor="@color/black"
+        app:timeTextSize="20sp"
+        app:isTimeTextBold="true"
+        app:suffixGravity="center"
+        app:suffixTextColor="@color/black"
+        app:suffixTextSize="12sp"
+        app:suffixDay="d"
+        app:suffixHour="h"
+        app:suffixMinute="m"
+        app:suffixSecond="s"
+        app:timeBgDivisionLineSize="1dp"
+        app:timeBgRadius="3dp"
+        app:timeBgSize="50dp"
+        app:timeBgColor="#FF5000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
